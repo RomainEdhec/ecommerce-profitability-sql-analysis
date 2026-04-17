@@ -8,7 +8,7 @@ The objective was to approach the dataset as a data analyst would in a real busi
 
 All analyses were conducted using PostgreSQL (pgAdmin).
 
-Business Problem :
+# Business Problem :
 
 How can the company improve its overall profitability?
 
@@ -16,7 +16,7 @@ The analysis focuses on identifying structural imbalances across categories, reg
 
 Tools Used : PostgreSQL (pgAdmin), SQL (data modeling, cleaning, KPI analysis)
 
-Data Preparation & Modeling :
+# Data Preparation & Modeling :
 
 The raw CSV dataset was first imported into PostgreSQL using a staging table.
 Data types were explicitly casted (dates, numeric fields, integers) to ensure analytical consistency.
@@ -27,7 +27,7 @@ customers, products, orders, order_items
 Primary and foreign keys were implemented to guarantee relational integrity and allow efficient analytical queries.
 This structure enabled clean aggregation and KPI computation.
 
-KPI Analysis
+# KPI Analysis
 
 The following key metrics were calculated:
 
